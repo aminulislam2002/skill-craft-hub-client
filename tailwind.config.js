@@ -5,6 +5,9 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      fontFamily: {
+        Nunito: "Nunito",
+      },
       backgroundColor: {
         "primary-bg": "#F0E2D9",
         "primary-button": "rgb(255, 16, 83)",
