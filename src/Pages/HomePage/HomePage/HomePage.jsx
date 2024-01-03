@@ -1,7 +1,9 @@
+import TopBanner from "../HomePageSections/TopBanner/TopBanner";
+
 const HomePage = () => {
   return (
     <div>
-      <h1>Home Page</h1>
+      <TopBanner></TopBanner>
     </div>
   );
 };
