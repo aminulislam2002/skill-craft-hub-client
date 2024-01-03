@@ -18,6 +18,7 @@ export default {
         "secondary-text": "#7e7e7e",
         "primary-button-text": "rgb(255, 16, 83)",
         "secondary-button-text": "rgb(5, 25, 37)",
+        "link-button-text": "#2441e7",
       },
       borderColor: {
         "primary-border": "rgb(255, 16, 83)",
