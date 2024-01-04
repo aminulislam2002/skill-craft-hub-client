@@ -1,4 +1,9 @@
 import { useForm } from "react-hook-form";
+import { IoIosStarOutline } from "react-icons/io";
+import { FaRegUser } from "react-icons/fa6";
+
+import image1 from "../../../../assets/courses/3.png";
+import { Link } from "react-router-dom";
 
 const TopCourses = () => {
   const { register, handleSubmit } = useForm();
@@ -29,6 +34,288 @@ const TopCourses = () => {
       </div>
 
       {/* Part two */}
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+        <div className="bg-white relative group overflow-hidden rounded-md">
+          <Link>
+            <img src={image1} className="h-48 w-full" alt="" />
+            <div className="absolute inset-0 group-hover:bg-blue-600 group-hover:bg-opacity-50 w-full h-48"></div>
+            <div className="absolute inset-0 flex justify-center items-center w-full h-48">
+              <div className="text-center text-white">
+                <h1 className="hidden group-hover:block">Preview Course</h1>
+                <div className="bg-[#c75533] text-white absolute top-5 left-5 px-3 py-1 rounded-lg hidden group-hover:block">
+                  Top Seller
+                </div>
+              </div>
+            </div>
+          </Link>
+
+          <div className="p-5">
+            <p className="text-secondary-text mb-2">Updated 21/12/19</p>
+            <Link className="text-lg font-bold font-Nunito">Fashion Photography From Professional</Link>
+            <div className="flex justify-start items-center gap-1 mt-5">
+              <IoIosStarOutline className="text-[#d0d23c] w-5 h-5" />
+              <IoIosStarOutline className="text-[#d0d23c] w-5 h-5" />
+              <IoIosStarOutline className="text-[#d0d23c] w-5 h-5" />
+              <IoIosStarOutline className="text-[#d0d23c] w-5 h-5" />
+              <IoIosStarOutline className="text-[#d0d23c] w-5 h-5" />
+              <span>(0)</span>
+            </div>
+          </div>
+          <div className="border-t p-5 grid grid-cols-2">
+            <div className="flex justify-start items-center gap-1 text-secondary-text">
+              <FaRegUser className="w-4 h-4" /> <span className="text-lg">6</span>
+            </div>
+            <div>
+              <h1 className="text-[#c75533] font-Nunito text-lg font-bold text-end">$49.99</h1>
+            </div>
+          </div>
+        </div>
+        <div className="bg-white relative group overflow-hidden rounded-md">
+          <Link>
+            <img src={image1} className="h-48 w-full" alt="" />
+            <div className="absolute inset-0 group-hover:bg-blue-600 group-hover:bg-opacity-50 w-full h-48"></div>
+            <div className="absolute inset-0 flex justify-center items-center w-full h-48">
+              <div className="text-center text-white">
+                <h1 className="hidden group-hover:block">Preview Course</h1>
+                <div className="bg-[#c75533] text-white absolute top-5 left-5 px-3 py-1 rounded-lg hidden group-hover:block">
+                  Top Seller
+                </div>
+              </div>
+            </div>
+          </Link>
+
+          <div className="p-5">
+            <p className="text-secondary-text mb-2">Updated 21/12/19</p>
+            <Link className="text-lg font-bold font-Nunito">Fashion Photography From Professional</Link>
+            <div className="flex justify-start items-center gap-1 mt-5">
+              <IoIosStarOutline className="text-[#d0d23c] w-5 h-5" />
+              <IoIosStarOutline className="text-[#d0d23c] w-5 h-5" />
+              <IoIosStarOutline className="text-[#d0d23c] w-5 h-5" />
+              <IoIosStarOutline className="text-[#d0d23c] w-5 h-5" />
+              <IoIosStarOutline className="text-[#d0d23c] w-5 h-5" />
+              <span>(0)</span>
+            </div>
+          </div>
+          <div className="border-t p-5 grid grid-cols-2">
+            <div className="flex justify-start items-center gap-1 text-secondary-text">
+              <FaRegUser className="w-4 h-4" /> <span className="text-lg">6</span>
+            </div>
+            <div>
+              <h1 className="text-[#c75533] font-Nunito text-lg font-bold text-end">$49.99</h1>
+            </div>
+          </div>
+        </div>
+        <div className="bg-white relative group overflow-hidden rounded-md">
+          <Link>
+            <img src={image1} className="h-48 w-full" alt="" />
+            <div className="absolute inset-0 group-hover:bg-blue-600 group-hover:bg-opacity-50 w-full h-48"></div>
+            <div className="absolute inset-0 flex justify-center items-center w-full h-48">
+              <div className="text-center text-white">
+                <h1 className="hidden group-hover:block">Preview Course</h1>
+                <div className="bg-[#c75533] text-white absolute top-5 left-5 px-3 py-1 rounded-lg hidden group-hover:block">
+                  Top Seller
+                </div>
+              </div>
+            </div>
+          </Link>
+
+          <div className="p-5">
+            <p className="text-secondary-text mb-2">Updated 21/12/19</p>
+            <Link className="text-lg font-bold font-Nunito">Fashion Photography From Professional</Link>
+            <div className="flex justify-start items-center gap-1 mt-5">
+              <IoIosStarOutline className="text-[#d0d23c] w-5 h-5" />
+              <IoIosStarOutline className="text-[#d0d23c] w-5 h-5" />
+              <IoIosStarOutline className="text-[#d0d23c] w-5 h-5" />
+              <IoIosStarOutline className="text-[#d0d23c] w-5 h-5" />
+              <IoIosStarOutline className="text-[#d0d23c] w-5 h-5" />
+              <span>(0)</span>
+            </div>
+          </div>
+          <div className="border-t p-5 grid grid-cols-2">
+            <div className="flex justify-start items-center gap-1 text-secondary-text">
+              <FaRegUser className="w-4 h-4" /> <span className="text-lg">6</span>
+            </div>
+            <div>
+              <h1 className="text-[#c75533] font-Nunito text-lg font-bold text-end">$49.99</h1>
+            </div>
+          </div>
+        </div>
+        <div className="bg-white relative group overflow-hidden rounded-md">
+          <Link>
+            <img src={image1} className="h-48 w-full" alt="" />
+            <div className="absolute inset-0 group-hover:bg-blue-600 group-hover:bg-opacity-50 w-full h-48"></div>
+            <div className="absolute inset-0 flex justify-center items-center w-full h-48">
+              <div className="text-center text-white">
+                <h1 className="hidden group-hover:block">Preview Course</h1>
+                <div className="bg-[#c75533] text-white absolute top-5 left-5 px-3 py-1 rounded-lg hidden group-hover:block">
+                  Top Seller
+                </div>
+              </div>
+            </div>
+          </Link>
+
+          <div className="p-5">
+            <p className="text-secondary-text mb-2">Updated 21/12/19</p>
+            <Link className="text-lg font-bold font-Nunito">Fashion Photography From Professional</Link>
+            <div className="flex justify-start items-center gap-1 mt-5">
+              <IoIosStarOutline className="text-[#d0d23c] w-5 h-5" />
+              <IoIosStarOutline className="text-[#d0d23c] w-5 h-5" />
+              <IoIosStarOutline className="text-[#d0d23c] w-5 h-5" />
+              <IoIosStarOutline className="text-[#d0d23c] w-5 h-5" />
+              <IoIosStarOutline className="text-[#d0d23c] w-5 h-5" />
+              <span>(0)</span>
+            </div>
+          </div>
+          <div className="border-t p-5 grid grid-cols-2">
+            <div className="flex justify-start items-center gap-1 text-secondary-text">
+              <FaRegUser className="w-4 h-4" /> <span className="text-lg">6</span>
+            </div>
+            <div>
+              <h1 className="text-[#c75533] font-Nunito text-lg font-bold text-end">$49.99</h1>
+            </div>
+          </div>
+        </div>
+        <div className="bg-white relative group overflow-hidden rounded-md">
+          <Link>
+            <img src={image1} className="h-48 w-full" alt="" />
+            <div className="absolute inset-0 group-hover:bg-blue-600 group-hover:bg-opacity-50 w-full h-48"></div>
+            <div className="absolute inset-0 flex justify-center items-center w-full h-48">
+              <div className="text-center text-white">
+                <h1 className="hidden group-hover:block">Preview Course</h1>
+                <div className="bg-[#c75533] text-white absolute top-5 left-5 px-3 py-1 rounded-lg hidden group-hover:block">
+                  Top Seller
+                </div>
+              </div>
+            </div>
+          </Link>
+
+          <div className="p-5">
+            <p className="text-secondary-text mb-2">Updated 21/12/19</p>
+            <Link className="text-lg font-bold font-Nunito">Fashion Photography From Professional</Link>
+            <div className="flex justify-start items-center gap-1 mt-5">
+              <IoIosStarOutline className="text-[#d0d23c] w-5 h-5" />
+              <IoIosStarOutline className="text-[#d0d23c] w-5 h-5" />
+              <IoIosStarOutline className="text-[#d0d23c] w-5 h-5" />
+              <IoIosStarOutline className="text-[#d0d23c] w-5 h-5" />
+              <IoIosStarOutline className="text-[#d0d23c] w-5 h-5" />
+              <span>(0)</span>
+            </div>
+          </div>
+          <div className="border-t p-5 grid grid-cols-2">
+            <div className="flex justify-start items-center gap-1 text-secondary-text">
+              <FaRegUser className="w-4 h-4" /> <span className="text-lg">6</span>
+            </div>
+            <div>
+              <h1 className="text-[#c75533] font-Nunito text-lg font-bold text-end">$49.99</h1>
+            </div>
+          </div>
+        </div>
+        <div className="bg-white relative group overflow-hidden rounded-md">
+          <Link>
+            <img src={image1} className="h-48 w-full" alt="" />
+            <div className="absolute inset-0 group-hover:bg-blue-600 group-hover:bg-opacity-50 w-full h-48"></div>
+            <div className="absolute inset-0 flex justify-center items-center w-full h-48">
+              <div className="text-center text-white">
+                <h1 className="hidden group-hover:block">Preview Course</h1>
+                <div className="bg-[#c75533] text-white absolute top-5 left-5 px-3 py-1 rounded-lg hidden group-hover:block">
+                  Top Seller
+                </div>
+              </div>
+            </div>
+          </Link>
+
+          <div className="p-5">
+            <p className="text-secondary-text mb-2">Updated 21/12/19</p>
+            <Link className="text-lg font-bold font-Nunito">Fashion Photography From Professional</Link>
+            <div className="flex justify-start items-center gap-1 mt-5">
+              <IoIosStarOutline className="text-[#d0d23c] w-5 h-5" />
+              <IoIosStarOutline className="text-[#d0d23c] w-5 h-5" />
+              <IoIosStarOutline className="text-[#d0d23c] w-5 h-5" />
+              <IoIosStarOutline className="text-[#d0d23c] w-5 h-5" />
+              <IoIosStarOutline className="text-[#d0d23c] w-5 h-5" />
+              <span>(0)</span>
+            </div>
+          </div>
+          <div className="border-t p-5 grid grid-cols-2">
+            <div className="flex justify-start items-center gap-1 text-secondary-text">
+              <FaRegUser className="w-4 h-4" /> <span className="text-lg">6</span>
+            </div>
+            <div>
+              <h1 className="text-[#c75533] font-Nunito text-lg font-bold text-end">$49.99</h1>
+            </div>
+          </div>
+        </div>
+        <div className="bg-white relative group overflow-hidden rounded-md">
+          <Link>
+            <img src={image1} className="h-48 w-full" alt="" />
+            <div className="absolute inset-0 group-hover:bg-blue-600 group-hover:bg-opacity-50 w-full h-48"></div>
+            <div className="absolute inset-0 flex justify-center items-center w-full h-48">
+              <div className="text-center text-white">
+                <h1 className="hidden group-hover:block">Preview Course</h1>
+                <div className="bg-[#c75533] text-white absolute top-5 left-5 px-3 py-1 rounded-lg hidden group-hover:block">
+                  Top Seller
+                </div>
+              </div>
+            </div>
+          </Link>
+
+          <div className="p-5">
+            <p className="text-secondary-text mb-2">Updated 21/12/19</p>
+            <Link className="text-lg font-bold font-Nunito">Fashion Photography From Professional</Link>
+            <div className="flex justify-start items-center gap-1 mt-5">
+              <IoIosStarOutline className="text-[#d0d23c] w-5 h-5" />
+              <IoIosStarOutline className="text-[#d0d23c] w-5 h-5" />
+              <IoIosStarOutline className="text-[#d0d23c] w-5 h-5" />
+              <IoIosStarOutline className="text-[#d0d23c] w-5 h-5" />
+              <IoIosStarOutline className="text-[#d0d23c] w-5 h-5" />
+              <span>(0)</span>
+            </div>
+          </div>
+          <div className="border-t p-5 grid grid-cols-2">
+            <div className="flex justify-start items-center gap-1 text-secondary-text">
+              <FaRegUser className="w-4 h-4" /> <span className="text-lg">6</span>
+            </div>
+            <div>
+              <h1 className="text-[#c75533] font-Nunito text-lg font-bold text-end">$49.99</h1>
+            </div>
+          </div>
+        </div>
+        <div className="bg-white relative group overflow-hidden rounded-md">
+          <Link>
+            <img src={image1} className="h-48 w-full" alt="" />
+            <div className="absolute inset-0 group-hover:bg-blue-600 group-hover:bg-opacity-50 w-full h-48"></div>
+            <div className="absolute inset-0 flex justify-center items-center w-full h-48">
+              <div className="text-center text-white">
+                <h1 className="hidden group-hover:block">Preview Course</h1>
+                <div className="bg-[#c75533] text-white absolute top-5 left-5 px-3 py-1 rounded-lg hidden group-hover:block">
+                  Top Seller
+                </div>
+              </div>
+            </div>
+          </Link>
+
+          <div className="p-5">
+            <p className="text-secondary-text mb-2">Updated 21/12/19</p>
+            <Link className="text-lg font-bold font-Nunito">Fashion Photography From Professional</Link>
+            <div className="flex justify-start items-center gap-1 mt-5">
+              <IoIosStarOutline className="text-[#d0d23c] w-5 h-5" />
+              <IoIosStarOutline className="text-[#d0d23c] w-5 h-5" />
+              <IoIosStarOutline className="text-[#d0d23c] w-5 h-5" />
+              <IoIosStarOutline className="text-[#d0d23c] w-5 h-5" />
+              <IoIosStarOutline className="text-[#d0d23c] w-5 h-5" />
+              <span>(0)</span>
+            </div>
+          </div>
+          <div className="border-t p-5 grid grid-cols-2">
+            <div className="flex justify-start items-center gap-1 text-secondary-text">
+              <FaRegUser className="w-4 h-4" /> <span className="text-lg">6</span>
+            </div>
+            <div>
+              <h1 className="text-[#c75533] font-Nunito text-lg font-bold text-end">$49.99</h1>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
