@@ -316,6 +316,12 @@ const TopCourses = () => {
           </div>
         </div>
       </div>
+
+      <div className="flex justify-center items-center mt-20">
+        <button className="px-20 py-3 rounded-full border-2 border-primary-border text-primary-button-text hover:bg-primary-button hover:text-white">
+          View all courses
+        </button>
+      </div>
     </div>
   );
 };
