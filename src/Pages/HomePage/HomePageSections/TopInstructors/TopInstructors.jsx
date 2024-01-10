@@ -9,8 +9,8 @@ const TopInstructors = () => {
     <div className="my-20 relative box-border">
       <div className="">
         <div className="mb-20">
-          <h1 className="text-center font-Nunito text-3xl font-bold mb-2">Top Rating Instructors</h1>
-          <p className="text-center text-lg mb-8 text-secondary-text">
+          <h1 className="text-center font-primary text-3xl font-bold mb-2">Top Rating Instructors</h1>
+          <p className="text-center text-lg mb-8 text-secondary">
             Cum doctus civibus efficiantur in imperdiet deterruisset.
           </p>
         </div>
@@ -30,8 +30,8 @@ const TopInstructors = () => {
               </div>
 
               <div>
-                <h1 className="text-center text-lg mt-2 font-semibold font-Nunito">John Smith</h1>
-                <h3 className="text-center mt-2 text-secondary-text">484 profile views</h3>
+                <h1 className="text-center text-lg mt-2 font-semibold font-primary">John Smith</h1>
+                <h3 className="text-center mt-2 text-secondary">484 profile views</h3>
               </div>
             </div>
           </div>
@@ -49,8 +49,8 @@ const TopInstructors = () => {
               </div>
 
               <div>
-                <h1 className="text-center text-lg mt-2 font-semibold font-Nunito">Nuhad Sayed Khan</h1>
-                <h3 className="text-center mt-2 text-secondary-text">484 profile views</h3>
+                <h1 className="text-center text-lg mt-2 font-semibold font-primary">Nuhad Sayed Khan</h1>
+                <h3 className="text-center mt-2 text-secondary">484 profile views</h3>
               </div>
             </div>
           </div>
@@ -68,8 +68,8 @@ const TopInstructors = () => {
               </div>
 
               <div>
-                <h1 className="text-center text-lg mt-2 font-semibold font-Nunito">Aminul Islam</h1>
-                <h3 className="text-center mt-2 text-secondary-text">484 profile views</h3>
+                <h1 className="text-center text-lg mt-2 font-semibold font-primary">Aminul Islam</h1>
+                <h3 className="text-center mt-2 text-secondary">484 profile views</h3>
               </div>
             </div>
           </div>
@@ -87,8 +87,8 @@ const TopInstructors = () => {
               </div>
 
               <div>
-                <h1 className="text-center text-lg mt-2 font-semibold font-Nunito">Mr. Saikat</h1>
-                <h3 className="text-center mt-2 text-secondary-text">484 profile views</h3>
+                <h1 className="text-center text-lg mt-2 font-semibold font-primary">Mr. Saikat</h1>
+                <h3 className="text-center mt-2 text-secondary">484 profile views</h3>
               </div>
             </div>
           </div>

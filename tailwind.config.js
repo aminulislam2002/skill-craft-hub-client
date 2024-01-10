@@ -6,23 +6,23 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        Nunito: "Nunito",
+        primary: "Nunito",
       },
       backgroundColor: {
-        "primary-bg": "#F0E2D9",
+        primary: "#F0E2D9",
         "primary-button": "rgb(255, 16, 83)",
         "secondary-button": "rgb(5, 25, 37)",
       },
       textColor: {
-        "primary-text": "#221538",
-        "secondary-text": "#7e7e7e",
+        primary: "#221538",
+        secondary: "#7e7e7e",
         "primary-button-text": "rgb(255, 16, 83)",
         "secondary-button-text": "rgb(5, 25, 37)",
         "link-button-text": "#2441e7",
       },
       borderColor: {
-        "primary-border": "rgb(255, 16, 83)",
-        "secondary-border": "rgb(5, 25, 37)",
+        primary: "rgb(255, 16, 83)",
+        secondary: "rgb(5, 25, 37)",
       },
     },
   },

@@ -14,11 +14,11 @@ const CoursesCategories = () => {
       {/* Part one */}
       <div className="grid grid-cols-1 lg:grid-cols-2 mb-4">
         <div>
-          <h1 className="text-primary-text text-2xl font-Nunito font-bold mb-2">Via School Categories Courses</h1>
-          <p className="text-secondary-text text-lg">Cum doctus civibus efficiantur in imperdiet deterruisset.</p>
+          <h1 className="text-primary text-2xl font-primary font-bold mb-2">Via School Categories Courses</h1>
+          <p className="text-secondary text-lg">Cum doctus civibus efficiantur in imperdiet deterruisset.</p>
         </div>
         <div className="flex justify-end items-start">
-          <button className="text-link-button-text text-lg font-bold font-Nunito relative flex justify-center items-center gap-2">
+          <button className="text-link-button-text text-lg font-bold font-primary relative flex justify-center items-center gap-2">
             View All Courses
             <span>
               <MdOutlineArrowRightAlt className="w-7 h-12" />

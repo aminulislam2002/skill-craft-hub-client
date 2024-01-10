@@ -23,7 +23,7 @@ const Statistics = () => {
       {/* Content Container */}
       <div className="absolute z-20 inset-0 flex flex-col justify-center items-center text-center text-white">
         <div>
-          <h1 className="font-Nunito text-3xl font-bold mb-4">Enhance your skills with the best online courses</h1>
+          <h1 className="font-primary text-3xl font-bold mb-4">Enhance your skills with the best online courses</h1>
           <p className="uppercase text-lg mb-8">Starting Online Learning</p>
         </div>
 
@@ -33,28 +33,28 @@ const Statistics = () => {
             <div className="flex justify-center items-center mb-4">
               <FaChalkboardUser className="h-16 w-16 md:h-20 md:w-20 lg:h-24 lg:w-24 text-white" />
             </div>
-            <h1 className="text-2xl font-bold font-Nunito mb-2">6500</h1>
+            <h1 className="text-2xl font-bold font-primary mb-2">6500</h1>
             <h3 className="text-lg">Students Learning</h3>
           </div>
           <div className="">
             <div className="flex justify-center items-center mb-4">
               <FaGraduationCap className="h-16 w-16 md:h-20 md:w-20 lg:h-24 lg:w-24 text-white" />
             </div>
-            <h1 className="text-2xl font-bold font-Nunito mb-2">58263</h1>
+            <h1 className="text-2xl font-bold font-primary mb-2">58263</h1>
             <h3 className="text-lg">Graduates</h3>
           </div>
           <div className="">
             <div className="flex justify-center items-center mb-4">
               <FaFreeCodeCamp className="h-16 w-16 md:h-20 md:w-20 lg:h-24 lg:w-24 text-white" />
             </div>
-            <h1 className="text-2xl font-bold font-Nunito mb-2">896673</h1>
+            <h1 className="text-2xl font-bold font-primary mb-2">896673</h1>
             <h3 className="text-lg">Free courses</h3>
           </div>
           <div className="">
             <div className="flex justify-center items-center mb-4">
               <VscVmActive className="h-16 w-16 md:h-20 md:w-20 lg:h-24 lg:w-24 text-white" />
             </div>
-            <h1 className="text-2xl font-bold font-Nunito mb-2">8570</h1>
+            <h1 className="text-2xl font-bold font-primary mb-2">8570</h1>
             <h3 className="text-lg">Active courses</h3>
           </div>
         </div>
