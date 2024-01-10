@@ -28,7 +28,7 @@ const CoursesCategories = () => {
       </div>
 
       {/* Part two */}
-      <div className="grid grid-cols-1 lg:grid-cols-5 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
         <Link>
           <div className="relative group overflow-hidden rounded-md">
             <img src={web_design} className="w-full rounded-md h-[245px] object-cover" alt="" />
