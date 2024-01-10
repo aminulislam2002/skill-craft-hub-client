@@ -71,13 +71,13 @@ const Testimonial = () => {
         <div ref={sliderRef} className="keen-slider">
           <div className="keen-slider__slide number-slide1">
             <div className="relative overflow-hidden w-full h-full text-center">
-              <div className="mb-2 p-5 pl-10 text-left">
+              <div className="mb-2 py-5 pl-10 text-left">
                 <div className="text-4xl md:text-5xl absolute left-6 top-4">
                   <span>
                     <FaQuoteLeft className="text-primary-button-text" />
                   </span>
                 </div>
-                <p className="ml-10 font-primary">
+                <p className="ml-10 font-primary text-sm md:text-lg">
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos ratione nesciunt cupiditate culpa
                   fugit, alias doloribus odit rem, magni veritatis voluptates? Illum debitis ullam tempora!
                 </p>
@@ -92,13 +92,13 @@ const Testimonial = () => {
           </div>
           <div className="keen-slider__slide number-slide2">
             <div className="relative overflow-hidden w-full h-full text-center">
-              <div className="mb-2 p-5 pl-10 text-left">
+              <div className="mb-2 py-5 pl-10 text-left">
                 <div className="text-4xl md:text-5xl absolute left-6 top-4">
                   <span>
                     <FaQuoteLeft className="text-primary-button-text" />
                   </span>
                 </div>
-                <p className="ml-10 font-primary">
+                <p className="ml-10 font-primary text-sm md:text-lg">
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos ratione nesciunt cupiditate culpa
                   fugit, alias doloribus odit rem, magni veritatis voluptates? Illum debitis ullam tempora!
                 </p>
@@ -113,13 +113,13 @@ const Testimonial = () => {
           </div>
           <div className="keen-slider__slide number-slide3">
             <div className="relative overflow-hidden w-full h-full text-center">
-              <div className="mb-2 p-5 pl-10 text-left">
+              <div className="mb-2 py-5 pl-10 text-left">
                 <div className="text-4xl md:text-5xl absolute left-6 top-4">
                   <span>
                     <FaQuoteLeft className="text-primary-button-text" />
                   </span>
                 </div>
-                <p className="ml-10 font-primary">
+                <p className="ml-10 font-primary text-sm md:text-lg">
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos ratione nesciunt cupiditate culpa
                   fugit, alias doloribus odit rem, magni veritatis voluptates? Illum debitis ullam tempora!
                 </p>
@@ -134,13 +134,13 @@ const Testimonial = () => {
           </div>
           <div className="keen-slider__slide number-slide4">
             <div className="relative overflow-hidden w-full h-full text-center">
-              <div className="mb-2 p-5 pl-10 text-left">
+              <div className="mb-2 py-5 pl-10 text-left">
                 <div className="text-4xl md:text-5xl absolute left-6 top-4">
                   <span>
                     <FaQuoteLeft className="text-primary-button-text" />
                   </span>
                 </div>
-                <p className="ml-10 font-primary">
+                <p className="ml-10 font-primary text-sm md:text-lg">
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos ratione nesciunt cupiditate culpa
                   fugit, alias doloribus odit rem, magni veritatis voluptates? Illum debitis ullam tempora!
                 </p>
@@ -155,13 +155,13 @@ const Testimonial = () => {
           </div>
           <div className="keen-slider__slide number-slide5">
             <div className="relative overflow-hidden w-full h-full text-center">
-              <div className="mb-2 p-5 pl-10 text-left">
+              <div className="mb-2 py-5 pl-10 text-left">
                 <div className="text-4xl md:text-5xl absolute left-6 top-4">
                   <span>
                     <FaQuoteLeft className="text-primary-button-text" />
                   </span>
                 </div>
-                <p className="ml-10 font-primary">
+                <p className="ml-10 font-primary text-sm md:text-lg">
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos ratione nesciunt cupiditate culpa
                   fugit, alias doloribus odit rem, magni veritatis voluptates? Illum debitis ullam tempora!
                 </p>
@@ -176,13 +176,13 @@ const Testimonial = () => {
           </div>
           <div className="keen-slider__slide number-slide6">
             <div className="relative overflow-hidden w-full h-full text-center">
-              <div className="mb-2 p-5 pl-10 text-left">
+              <div className="mb-2 py-5 pl-10 text-left">
                 <div className="text-4xl md:text-5xl absolute left-6 top-4">
                   <span>
                     <FaQuoteLeft className="text-primary-button-text" />
                   </span>
                 </div>
-                <p className="ml-10 font-primary">
+                <p className="ml-10 font-primary text-sm md:text-lg">
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos ratione nesciunt cupiditate culpa
                   fugit, alias doloribus odit rem, magni veritatis voluptates? Illum debitis ullam tempora!
                 </p>
