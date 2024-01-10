@@ -6,8 +6,8 @@ const TopBanner = () => {
   return (
     <div className="w-full px-4 mx-auto bg-primary">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
-        <div className="py-[230px]">
-          <h1 className="text-5xl font-bold text-primary mb-2 font-primary">Learn From Anywhere</h1>
+        <div className="py-[120px] lg:py-[200px]">
+          <h1 className="text-5xl font-bold text-primary mb-5 font-primary">Learn From Anywhere</h1>
           <p className="text-secondary text-lg mb-5">
             Technology is bringing a massive wave of evolution on learning things on different ways.
           </p>
@@ -21,7 +21,7 @@ const TopBanner = () => {
           </div>
         </div>
         <div className="flex justify-center items-center">
-          <div>
+          <div className="mb-[80px]">
             <img src={banner_image} alt="Banner Image" />
           </div>
         </div>
