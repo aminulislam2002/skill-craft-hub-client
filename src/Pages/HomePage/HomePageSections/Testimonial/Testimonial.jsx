@@ -71,20 +71,20 @@ const Testimonial = () => {
         <div ref={sliderRef} className="keen-slider">
           <div className="keen-slider__slide number-slide1">
             <div className="relative overflow-hidden w-full h-full text-center">
-              <div className="mb-2 p-5 md:pl-10 text-left">
+              <div className="mb-2 p-5 pl-10 text-left">
                 <div className="text-4xl md:text-5xl absolute left-6 top-4">
                   <span>
                     <FaQuoteLeft className="text-primary-button-text" />
                   </span>
                 </div>
-                <p className="ml-10">
+                <p className="ml-10 font-primary">
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos ratione nesciunt cupiditate culpa
                   fugit, alias doloribus odit rem, magni veritatis voluptates? Illum debitis ullam tempora!
                 </p>
               </div>
-              <div className="mb-6 text-center box-border">
+              <div className="text-center box-border">
                 <div className="flex justify-center items-center">
-                  <img src={image1} className="mb-3 w-16 h-16 rounded-full max-w-full" alt="Client" />
+                  <img src={image1} className="mb-2 lg:mb-3 w-16 h-16 rounded-full max-w-full" alt="Client" />
                 </div>
                 <div className="text-lg font-bold text-gray-800">John Smith</div>
               </div>
@@ -92,20 +92,20 @@ const Testimonial = () => {
           </div>
           <div className="keen-slider__slide number-slide2">
             <div className="relative overflow-hidden w-full h-full text-center">
-              <div className="mb-2 p-5 md:pl-10 text-left">
+              <div className="mb-2 p-5 pl-10 text-left">
                 <div className="text-4xl md:text-5xl absolute left-6 top-4">
                   <span>
                     <FaQuoteLeft className="text-primary-button-text" />
                   </span>
                 </div>
-                <p className="ml-10">
+                <p className="ml-10 font-primary">
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos ratione nesciunt cupiditate culpa
                   fugit, alias doloribus odit rem, magni veritatis voluptates? Illum debitis ullam tempora!
                 </p>
               </div>
-              <div className="mb-6 text-center box-border">
+              <div className="text-center box-border">
                 <div className="flex justify-center items-center">
-                  <img src={image1} className="mb-3 w-16 h-16 rounded-full max-w-full" alt="Client" />
+                  <img src={image1} className="mb-2 lg:mb-3 w-16 h-16 rounded-full max-w-full" alt="Client" />
                 </div>
                 <div className="text-lg font-bold text-gray-800">John Smith</div>
               </div>
@@ -113,20 +113,20 @@ const Testimonial = () => {
           </div>
           <div className="keen-slider__slide number-slide3">
             <div className="relative overflow-hidden w-full h-full text-center">
-              <div className="mb-2 p-5 md:pl-10 text-left">
+              <div className="mb-2 p-5 pl-10 text-left">
                 <div className="text-4xl md:text-5xl absolute left-6 top-4">
                   <span>
                     <FaQuoteLeft className="text-primary-button-text" />
                   </span>
                 </div>
-                <p className="ml-10">
+                <p className="ml-10 font-primary">
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos ratione nesciunt cupiditate culpa
                   fugit, alias doloribus odit rem, magni veritatis voluptates? Illum debitis ullam tempora!
                 </p>
               </div>
-              <div className="mb-6 text-center box-border">
+              <div className="text-center box-border">
                 <div className="flex justify-center items-center">
-                  <img src={image1} className="mb-3 w-16 h-16 rounded-full max-w-full" alt="Client" />
+                  <img src={image1} className="mb-2 lg:mb-3 w-16 h-16 rounded-full max-w-full" alt="Client" />
                 </div>
                 <div className="text-lg font-bold text-gray-800">John Smith</div>
               </div>
@@ -134,20 +134,20 @@ const Testimonial = () => {
           </div>
           <div className="keen-slider__slide number-slide4">
             <div className="relative overflow-hidden w-full h-full text-center">
-              <div className="mb-2 p-5 md:pl-10 text-left">
+              <div className="mb-2 p-5 pl-10 text-left">
                 <div className="text-4xl md:text-5xl absolute left-6 top-4">
                   <span>
                     <FaQuoteLeft className="text-primary-button-text" />
                   </span>
                 </div>
-                <p className="ml-10">
+                <p className="ml-10 font-primary">
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos ratione nesciunt cupiditate culpa
                   fugit, alias doloribus odit rem, magni veritatis voluptates? Illum debitis ullam tempora!
                 </p>
               </div>
-              <div className="mb-6 text-center box-border">
+              <div className="text-center box-border">
                 <div className="flex justify-center items-center">
-                  <img src={image1} className="mb-3 w-16 h-16 rounded-full max-w-full" alt="Client" />
+                  <img src={image1} className="mb-2 lg:mb-3 w-16 h-16 rounded-full max-w-full" alt="Client" />
                 </div>
                 <div className="text-lg font-bold text-gray-800">John Smith</div>
               </div>
@@ -155,20 +155,20 @@ const Testimonial = () => {
           </div>
           <div className="keen-slider__slide number-slide5">
             <div className="relative overflow-hidden w-full h-full text-center">
-              <div className="mb-2 p-5 md:pl-10 text-left">
+              <div className="mb-2 p-5 pl-10 text-left">
                 <div className="text-4xl md:text-5xl absolute left-6 top-4">
                   <span>
                     <FaQuoteLeft className="text-primary-button-text" />
                   </span>
                 </div>
-                <p className="ml-10">
+                <p className="ml-10 font-primary">
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos ratione nesciunt cupiditate culpa
                   fugit, alias doloribus odit rem, magni veritatis voluptates? Illum debitis ullam tempora!
                 </p>
               </div>
-              <div className="mb-6 text-center box-border">
+              <div className="text-center box-border">
                 <div className="flex justify-center items-center">
-                  <img src={image1} className="mb-3 w-16 h-16 rounded-full max-w-full" alt="Client" />
+                  <img src={image1} className="mb-2 lg:mb-3 w-16 h-16 rounded-full max-w-full" alt="Client" />
                 </div>
                 <div className="text-lg font-bold text-gray-800">John Smith</div>
               </div>
@@ -176,20 +176,20 @@ const Testimonial = () => {
           </div>
           <div className="keen-slider__slide number-slide6">
             <div className="relative overflow-hidden w-full h-full text-center">
-              <div className="mb-2 p-5 md:pl-10 text-left">
+              <div className="mb-2 p-5 pl-10 text-left">
                 <div className="text-4xl md:text-5xl absolute left-6 top-4">
                   <span>
                     <FaQuoteLeft className="text-primary-button-text" />
                   </span>
                 </div>
-                <p className="ml-10">
+                <p className="ml-10 font-primary">
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos ratione nesciunt cupiditate culpa
                   fugit, alias doloribus odit rem, magni veritatis voluptates? Illum debitis ullam tempora!
                 </p>
               </div>
-              <div className="mb-6 text-center box-border">
+              <div className="text-center box-border">
                 <div className="flex justify-center items-center">
-                  <img src={image1} className="mb-3 w-16 h-16 rounded-full max-w-full" alt="Client" />
+                  <img src={image1} className="mb-2 lg:mb-3 w-16 h-16 rounded-full max-w-full" alt="Client" />
                 </div>
                 <div className="text-lg font-bold text-gray-800">John Smith</div>
               </div>
