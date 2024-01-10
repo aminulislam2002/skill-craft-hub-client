@@ -63,7 +63,7 @@ const Testimonial = () => {
   return (
     <div className="py-20 relative box-border bg-primary">
       <div className="mb-20">
-        <h1 className="text-center font-primary text-3xl font-bold mb-2">What People Say</h1>
+        <h1 className="text-center font-primary text-2xl font-bold mb-2">What People Say</h1>
         <p className="text-center text-lg mb-8 text-secondary">Cum doctus civibus efficiantur in imperdiet deterruisset.</p>
       </div>
 
