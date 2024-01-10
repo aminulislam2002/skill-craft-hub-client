@@ -7,14 +7,58 @@ import { useKeenSlider } from "keen-slider/react";
 import "./KeenSlider.css";
 
 const Testimonial = () => {
-  const [sliderRef] = useKeenSlider({
-    loop: true,
-    rtl: true,
-    slides: {
-      perView: 3,
-      spacing: 10,
+  const [sliderRef] = useKeenSlider(
+    {
+      loop: true,
+      slides: {
+        perView: () => determinePerView(),
+        spacing: 10,
+      },
     },
-  });
+    [
+      (slider) => {
+        let timeout;
+        let mouseOver = false;
+        function clearNextTimeout() {
+          clearTimeout(timeout);
+        }
+        function nextTimeout() {
+          clearTimeout(timeout);
+          if (mouseOver) return;
+          timeout = setTimeout(() => {
+            slider.next();
+          }, 2000);
+        }
+        slider.on("created", () => {
+          slider.container.addEventListener("mouseover", () => {
+            mouseOver = true;
+            clearNextTimeout();
+          });
+          slider.container.addEventListener("mouseout", () => {
+            mouseOver = false;
+            nextTimeout();
+          });
+          nextTimeout();
+        });
+        slider.on("dragStarted", clearNextTimeout);
+        slider.on("animationEnded", nextTimeout);
+        slider.on("updated", nextTimeout);
+      },
+    ]
+  );
+
+  function determinePerView() {
+    if (window.innerWidth >= 1200) {
+      // Largest devices
+      return 3;
+    } else if (window.innerWidth >= 768) {
+      // Medium devices
+      return 2;
+    } else {
+      // Small devices
+      return 1;
+    }
+  }
 
   return (
     <div className="py-20 relative box-border bg-primary">
