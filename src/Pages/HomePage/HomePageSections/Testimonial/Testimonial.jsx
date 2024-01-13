@@ -74,7 +74,7 @@ const Testimonial = () => {
               <div className="mb-2 py-5 pl-10 text-left">
                 <div className="text-4xl md:text-5xl absolute left-6 top-4">
                   <span>
-                    <FaQuoteLeft className="text-primary-button-text" />
+                    <FaQuoteLeft className="text-red" />
                   </span>
                 </div>
                 <p className="ml-10 font-primary text-sm md:text-lg">
@@ -95,7 +95,7 @@ const Testimonial = () => {
               <div className="mb-2 py-5 pl-10 text-left">
                 <div className="text-4xl md:text-5xl absolute left-6 top-4">
                   <span>
-                    <FaQuoteLeft className="text-primary-button-text" />
+                    <FaQuoteLeft className="text-red" />
                   </span>
                 </div>
                 <p className="ml-10 font-primary text-sm md:text-lg">
@@ -116,7 +116,7 @@ const Testimonial = () => {
               <div className="mb-2 py-5 pl-10 text-left">
                 <div className="text-4xl md:text-5xl absolute left-6 top-4">
                   <span>
-                    <FaQuoteLeft className="text-primary-button-text" />
+                    <FaQuoteLeft className="text-red" />
                   </span>
                 </div>
                 <p className="ml-10 font-primary text-sm md:text-lg">
@@ -137,7 +137,7 @@ const Testimonial = () => {
               <div className="mb-2 py-5 pl-10 text-left">
                 <div className="text-4xl md:text-5xl absolute left-6 top-4">
                   <span>
-                    <FaQuoteLeft className="text-primary-button-text" />
+                    <FaQuoteLeft className="text-red" />
                   </span>
                 </div>
                 <p className="ml-10 font-primary text-sm md:text-lg">
@@ -158,7 +158,7 @@ const Testimonial = () => {
               <div className="mb-2 py-5 pl-10 text-left">
                 <div className="text-4xl md:text-5xl absolute left-6 top-4">
                   <span>
-                    <FaQuoteLeft className="text-primary-button-text" />
+                    <FaQuoteLeft className="text-red" />
                   </span>
                 </div>
                 <p className="ml-10 font-primary text-sm md:text-lg">
@@ -179,7 +179,7 @@ const Testimonial = () => {
               <div className="mb-2 py-5 pl-10 text-left">
                 <div className="text-4xl md:text-5xl absolute left-6 top-4">
                   <span>
-                    <FaQuoteLeft className="text-primary-button-text" />
+                    <FaQuoteLeft className="text-red" />
                   </span>
                 </div>
                 <p className="ml-10 font-primary text-sm md:text-lg">

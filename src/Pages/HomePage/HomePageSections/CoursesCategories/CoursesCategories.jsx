@@ -18,7 +18,7 @@ const CoursesCategories = () => {
           <p className="text-secondary text-lg">Cum doctus civibus efficiantur in imperdiet deterruisset.</p>
         </div>
         <div className="flex justify-end items-start">
-          <button className="text-link-button-text text-lg font-bold font-primary relative flex justify-center items-center gap-2">
+          <button className="text-blue text-lg font-bold font-primary relative flex justify-center items-center gap-2">
             View All Courses
             <span>
               <MdOutlineArrowRightAlt className="w-7 h-12" />

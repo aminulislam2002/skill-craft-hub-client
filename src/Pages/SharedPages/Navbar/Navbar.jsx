@@ -2,6 +2,8 @@ import { Link } from "react-router-dom";
 
 import { LuUser2 } from "react-icons/lu";
 
+import sch_logo from "../../../assets/logo/sch-without-bg.png"
+
 const Navbar = () => {
   const navItems = [
     <>
@@ -24,7 +26,7 @@ const Navbar = () => {
   ];
 
   return (
-    <div className="grid grid-cols-12 bg-primary">
+    <div className="grid grid-cols-12 bg-primary fixed z-[100] w-full">
       <div className="col-span-6 lg:col-span-2 w-full h-full flex justify-center">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -44,7 +46,7 @@ const Navbar = () => {
             </ul>
           </div>
         </div>
-        <a className="btn btn-ghost text-xl">daisyUI</a>
+        <img src={sch_logo} className="w-20 h-12" alt="Logo of SCH" />
       </div>
       <div className="hidden lg:flex justify-center items-center lg:col-span-8 w-full h-full">
         <ul className="menu menu-horizontal px-1">{navItems}</ul>

@@ -115,7 +115,9 @@ const TopCourses = () => {
       {/* Part one */}
       <div className="grid grid-cols-1 lg:grid-cols-2 mb-12">
         <div>
-          <h1 className="text-primary text-2xl font-primary font-bold mb-2 text-center lg:text-left">Browse Our Top Courses</h1>
+          <h1 className="text-primary text-2xl font-primary font-bold mb-2 text-center lg:text-left">
+            Browse Our Top Courses
+          </h1>
           <p className="text-secondary text-lg text-center lg:text-left">
             Cum doctus civibus efficiantur in imperdiet deterruisCum doctus civibus efficiantur in imperdiet deterruisset.
           </p>
@@ -181,7 +183,7 @@ const TopCourses = () => {
       </div>
 
       <div className="flex justify-center items-center mt-16">
-        <button className="px-20 py-3 rounded-full border-2 border-primary text-primary-button-text hover:bg-primary-button hover:text-white">
+        <button className="px-20 py-3 rounded-full border-2 border-primary text-red hover:bg-primary-button hover:text-white">
           View all courses
         </button>
       </div>

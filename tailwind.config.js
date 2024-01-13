@@ -16,9 +16,9 @@ export default {
       textColor: {
         primary: "#221538",
         secondary: "#7e7e7e",
-        "primary-button-text": "rgb(255, 16, 83)",
-        "secondary-button-text": "rgb(5, 25, 37)",
-        "link-button-text": "#2441e7",
+        red: "rgb(255, 16, 83)",
+        black: "rgb(5, 25, 37)",
+        blue: "#2441e7",
       },
       borderColor: {
         primary: "rgb(255, 16, 83)",

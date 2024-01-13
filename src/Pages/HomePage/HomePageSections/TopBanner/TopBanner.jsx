@@ -12,10 +12,10 @@ const TopBanner = () => {
             Technology is bringing a massive wave of evolution on learning things on different ways.
           </p>
           <div className="flex gap-3">
-            <button className="bg-primary-button hover:bg-primary text-white hover:text-primary-button-text text-lg px-9 py-3 border border-primary rounded-md">
+            <button className="bg-primary-button hover:bg-primary text-white hover:text-red text-lg px-9 py-3 border border-primary rounded-md">
               Get Stated
             </button>
-            <button className="bg-secondary-button hover:bg-primary text-white hover:text-secondary-button-text text-lg px-9 py-3 border border-secondary rounded-md">
+            <button className="bg-secondary-button hover:bg-primary text-white hover:text-black text-lg px-9 py-3 border border-secondary rounded-md">
               View Courses
             </button>
           </div>
