@@ -22,7 +22,7 @@ const TopCourses = () => {
       users: 6,
       message: 10,
       price: 49.99,
-      topSeller: true,
+      status: "Top Seller",
     },
     {
       id: 2,
@@ -35,7 +35,7 @@ const TopCourses = () => {
       users: 6,
       message: 10,
       price: 49.99,
-      topSeller: true,
+      status: "Top Seller",
     },
     {
       id: 3,
@@ -48,7 +48,7 @@ const TopCourses = () => {
       users: 6,
       message: 10,
       price: 49.99,
-      topSeller: true,
+      status: "Top Seller",
     },
     {
       id: 4,
@@ -61,7 +61,7 @@ const TopCourses = () => {
       users: 6,
       message: 10,
       price: 49.99,
-      topSeller: true,
+      status: "Top Seller",
     },
     {
       id: 5,
@@ -74,7 +74,7 @@ const TopCourses = () => {
       users: 6,
       message: 10,
       price: 49.99,
-      topSeller: true,
+      status: "Top Seller",
     },
 
     {
@@ -88,7 +88,7 @@ const TopCourses = () => {
       users: 8,
       message: 15,
       price: 39.99,
-      topSeller: false,
+      status: "Top Seller",
     },
     {
       id: 7,
@@ -101,7 +101,7 @@ const TopCourses = () => {
       users: 8,
       message: 15,
       price: 39.99,
-      topSeller: false,
+      status: "Top Seller",
     },
     {
       id: 8,
@@ -114,7 +114,7 @@ const TopCourses = () => {
       users: 8,
       message: 15,
       price: 39.99,
-      topSeller: false,
+      status: "Top Seller",
     },
     {
       id: 9,
@@ -127,7 +127,7 @@ const TopCourses = () => {
       users: 8,
       message: 15,
       price: 39.99,
-      topSeller: false,
+      status: "Top Seller",
     },
     {
       id: 10,
@@ -140,7 +140,7 @@ const TopCourses = () => {
       users: 12,
       message: 20,
       price: 59.99,
-      topSeller: true,
+      status: "Top Seller",
     },
     {
       id: 11,
@@ -153,7 +153,7 @@ const TopCourses = () => {
       users: 12,
       message: 20,
       price: 59.99,
-      topSeller: true,
+      status: "Top Seller",
     },
     {
       id: 12,
@@ -166,7 +166,7 @@ const TopCourses = () => {
       users: 12,
       message: 20,
       price: 59.99,
-      topSeller: true,
+      status: "Top Seller",
     },
     {
       id: 13,
@@ -179,7 +179,7 @@ const TopCourses = () => {
       users: 12,
       message: 20,
       price: 59.99,
-      topSeller: true,
+      status: "Top Seller",
     },
     {
       id: 14,
@@ -192,7 +192,7 @@ const TopCourses = () => {
       users: 12,
       message: 20,
       price: 59.99,
-      topSeller: true,
+      status: "Top Seller",
     },
     {
       id: 15,
@@ -205,7 +205,7 @@ const TopCourses = () => {
       users: 6,
       message: 10,
       price: 49.99,
-      topSeller: true,
+      status: "Top Seller",
     },
     {
       id: 16,
@@ -218,7 +218,7 @@ const TopCourses = () => {
       users: 6,
       message: 10,
       price: 49.99,
-      topSeller: true,
+      status: "Top Seller",
     },
     {
       id: 17,
@@ -231,7 +231,7 @@ const TopCourses = () => {
       users: 6,
       message: 10,
       price: 49.99,
-      topSeller: true,
+      status: "Top Seller",
     },
     {
       id: 18,
@@ -244,7 +244,7 @@ const TopCourses = () => {
       users: 6,
       message: 10,
       price: 49.99,
-      topSeller: true,
+      status: "Top Seller",
     },
     {
       id: 19,
@@ -257,7 +257,7 @@ const TopCourses = () => {
       users: 6,
       message: 10,
       price: 49.99,
-      topSeller: true,
+      status: "Top Seller",
     },
     {
       id: 20,
@@ -270,7 +270,7 @@ const TopCourses = () => {
       users: 6,
       message: 10,
       price: 49.99,
-      topSeller: true,
+      status: "Top Seller",
     },
   ];
 
@@ -288,8 +288,8 @@ const TopCourses = () => {
         </div>
         <div className="flex justify-center lg:justify-end items-center lg:items-start mt-8 lg:mt-0">
           <form onSubmit={handleSubmit(onSubmit)}>
-            <select {...register("gender")} className="w-60 h-14 px-5 rounded-md border">
-              <option value="all">All</option>
+            <select {...register("course")} className="w-60 h-14 px-5 rounded-md border">
+              <option value="All">All</option>
               <option value="Software Development">Software Development</option>
               <option value="Web Development">Web Development</option>
               <option value="Web Design">Web Design</option>
@@ -302,7 +302,7 @@ const TopCourses = () => {
 
       {/* Part two */}
       <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-8">
-        {coursesData.map((course) => (
+        {coursesData.slice(0, 8).map((course) => (
           <div key={course.id} className="bg-white relative group overflow-hidden rounded-md">
             <Link>
               <img src={course.image} className="h-48 w-full" alt="" />
@@ -310,9 +310,9 @@ const TopCourses = () => {
               <div className="absolute inset-0 flex justify-center items-center w-full h-48">
                 <div className="text-center text-white">
                   <h1 className="hidden group-hover:block">Preview Course</h1>
-                  {course.topSeller && (
+                  {course.status && (
                     <div className="bg-[#c75533] text-white absolute top-5 left-5 px-3 py-1 rounded-lg hidden group-hover:block">
-                      Top Seller
+                      {course?.status}
                     </div>
                   )}
                 </div>

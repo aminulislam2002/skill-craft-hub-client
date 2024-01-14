@@ -2,27 +2,15 @@ import { Link } from "react-router-dom";
 
 import { LuUser2 } from "react-icons/lu";
 
-import sch_logo from "../../../assets/logo/sch-without-bg.png"
+import sch_logo from "../../../assets/logo/sch-without-bg.png";
 
 const Navbar = () => {
   const navItems = [
-    <>
-      <li className="font-primary font-bold text-lg">
-        <Link to="/">Home</Link>
-      </li>
-      <li className="font-primary font-bold text-lg">
-        <Link to="/courses">Courses</Link>
-      </li>
-      <li className="font-primary font-bold text-lg">
-        <Link to="/events">Events</Link>
-      </li>
-      <li className="font-primary font-bold text-lg">
-        <Link to="/blog">Blog</Link>
-      </li>
-      <li className="font-primary font-bold text-lg">
-        <Link to="/contact">Contact</Link>
-      </li>
-    </>,
+    { label: "Home", to: "/" },
+    { label: "Courses", to: "/courses" },
+    { label: "Events", to: "/events" },
+    { label: "Blog", to: "/blog" },
+    { label: "Contact", to: "/contact" },
   ];
 
   return (
@@ -42,14 +30,24 @@ const Navbar = () => {
           </div>
           <div>
             <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-              {navItems}
+              {navItems.map((item, index) => (
+                <li key={index} className="font-primary font-bold text-lg">
+                  <Link to={item.to}>{item.label}</Link>
+                </li>
+              ))}
             </ul>
           </div>
         </div>
         <img src={sch_logo} className="w-20 h-12" alt="Logo of SCH" />
       </div>
       <div className="hidden lg:flex justify-center items-center lg:col-span-8 w-full h-full">
-        <ul className="menu menu-horizontal px-1">{navItems}</ul>
+        <ul className="menu menu-horizontal px-1">
+          {navItems.map((item, index) => (
+            <li key={index} className="font-primary font-bold text-lg">
+              <Link to={item.to}>{item.label}</Link>
+            </li>
+          ))}
+        </ul>
       </div>
       <div className="col-span-6 lg:col-span-2 w-full h-full flex justify-center items-center font-primary font-bold text-lg">
         <span className="me-2">
