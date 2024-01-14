@@ -5,8 +5,11 @@ import { MdOutlineMessage } from "react-icons/md";
 
 import image1 from "../../../../assets/courses/3.png";
 import { Link } from "react-router-dom";
+import { useState } from "react";
 
 const TopCourses = () => {
+  const [selectedCourse, setSelectedCourse] = useState("All");
+  
   const { register, handleSubmit } = useForm();
   const onSubmit = (data) => console.log(data);
 
@@ -274,6 +277,9 @@ const TopCourses = () => {
     },
   ];
 
+  const filterSelectedCourses =
+    selectedCourse === "All" ? coursesData.slice(0, 8) : coursesData.filter((course) => course.category === selectedCourse);
+
   return (
     <div className="py-16 px-4 relative bg-primary">
       {/* Part one */}
@@ -288,7 +294,12 @@ const TopCourses = () => {
         </div>
         <div className="flex justify-center lg:justify-end items-center lg:items-start mt-8 lg:mt-0">
           <form onSubmit={handleSubmit(onSubmit)}>
-            <select {...register("course")} className="w-60 h-14 px-5 rounded-md border">
+            <select
+              {...register("course")}
+              value={selectedCourse}
+              onChange={(e) => setSelectedCourse(e.target.value)}
+              className="w-60 h-14 px-5 rounded-md border"
+            >
               <option value="All">All</option>
               <option value="Software Development">Software Development</option>
               <option value="Web Development">Web Development</option>
@@ -302,7 +313,7 @@ const TopCourses = () => {
 
       {/* Part two */}
       <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-8">
-        {coursesData.slice(0, 8).map((course) => (
+        {filterSelectedCourses.map((course) => (
           <div key={course.id} className="bg-white relative group overflow-hidden rounded-md">
             <Link>
               <img src={course.image} className="h-48 w-full" alt="" />
