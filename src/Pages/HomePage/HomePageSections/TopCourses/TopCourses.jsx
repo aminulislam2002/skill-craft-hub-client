@@ -2,18 +2,63 @@ import { useForm } from "react-hook-form";
 import { IoIosStarOutline } from "react-icons/io";
 import { FaRegUser } from "react-icons/fa6";
 import { MdOutlineMessage } from "react-icons/md";
-
-import image1 from "../../../../assets/courses/3.png";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 
+import image1 from "../../../../assets/courses/1.jpg";
+import image2 from "../../../../assets/courses/2.jpg";
+import image3 from "../../../../assets/courses/3.jpg";
+import image4 from "../../../../assets/courses/4.jpg";
+import image5 from "../../../../assets/courses/5.jpg";
+import image6 from "../../../../assets/courses/6.jpg";
+import image7 from "../../../../assets/courses/7.jpg";
+import image8 from "../../../../assets/courses/8.jpg";
+import image9 from "../../../../assets/courses/9.jpg";
+import image10 from "../../../../assets/courses/10.jpg";
+import image11 from "../../../../assets/courses/11.jpg";
+import image12 from "../../../../assets/courses/12.jpg";
+import image13 from "../../../../assets/courses/13.jpg";
+import image14 from "../../../../assets/courses/14.jpg";
+import image15 from "../../../../assets/courses/15.jpg";
+import image16 from "../../../../assets/courses/16.jpg";
+import image17 from "../../../../assets/courses/17.jpg";
+import image18 from "../../../../assets/courses/18.jpg";
+import image19 from "../../../../assets/courses/19.jpg";
+import image20 from "../../../../assets/courses/20.jpg";
+
 const TopCourses = () => {
   const [selectedCourse, setSelectedCourse] = useState("All");
-  
+
   const { register, handleSubmit } = useForm();
   const onSubmit = (data) => console.log(data);
 
   const coursesData = [
+    {
+      id: 15,
+      category: "Software Development",
+      image: image15,
+      title: "Software Development Masterclass 1",
+      updatedDate: "Updated 21/12/19",
+      stars: 5,
+      reviews: 0,
+      users: 6,
+      message: 10,
+      price: 49.99,
+      status: "Top Seller",
+    },
+    {
+      id: 16,
+      category: "Software Development",
+      image: image16,
+      title: "Software Development Masterclass 2",
+      updatedDate: "Updated 21/12/19",
+      stars: 5,
+      reviews: 0,
+      users: 6,
+      message: 10,
+      price: 49.99,
+      status: "Top Seller",
+    },
     {
       id: 1,
       category: "Web Development",
@@ -30,7 +75,7 @@ const TopCourses = () => {
     {
       id: 2,
       category: "Web Development",
-      image: image1,
+      image: image2,
       title: "Web Development Masterclass 2",
       updatedDate: "Updated 21/12/19",
       stars: 5,
@@ -41,10 +86,10 @@ const TopCourses = () => {
       status: "Top Seller",
     },
     {
-      id: 3,
-      category: "Web Development",
-      image: image1,
-      title: "Web Development Masterclass 3",
+      id: 18,
+      category: "3D Animation",
+      image: image18,
+      title: "3D Animation Masterclass 1",
       updatedDate: "Updated 21/12/19",
       stars: 5,
       reviews: 0,
@@ -54,36 +99,22 @@ const TopCourses = () => {
       status: "Top Seller",
     },
     {
-      id: 4,
-      category: "Web Development",
-      image: image1,
-      title: "Web Development Masterclass 4",
+      id: 10,
+      category: "Graphics Design",
+      image: image10,
+      title: "Adobe Illustrator Essentials 1",
       updatedDate: "Updated 21/12/19",
-      stars: 5,
-      reviews: 0,
-      users: 6,
-      message: 10,
-      price: 49.99,
+      stars: 4.7,
+      reviews: 5,
+      users: 12,
+      message: 20,
+      price: 59.99,
       status: "Top Seller",
     },
-    {
-      id: 5,
-      category: "Web Development",
-      image: image1,
-      title: "Web Development Masterclass 5",
-      updatedDate: "Updated 21/12/19",
-      stars: 5,
-      reviews: 0,
-      users: 6,
-      message: 10,
-      price: 49.99,
-      status: "Top Seller",
-    },
-
     {
       id: 6,
       category: "Web Design",
-      image: image1,
+      image: image6,
       title: "Responsive Web Design Fundamentals 1",
       updatedDate: "Updated 21/12/19",
       stars: 4.5,
@@ -96,7 +127,7 @@ const TopCourses = () => {
     {
       id: 7,
       category: "Web Design",
-      image: image1,
+      image: image7,
       title: "Responsive Web Design Fundamentals 2",
       updatedDate: "Updated 21/12/19",
       stars: 4.5,
@@ -107,9 +138,48 @@ const TopCourses = () => {
       status: "Top Seller",
     },
     {
+      id: 3,
+      category: "Web Development",
+      image: image3,
+      title: "Web Development Masterclass 3",
+      updatedDate: "Updated 21/12/19",
+      stars: 5,
+      reviews: 0,
+      users: 6,
+      message: 10,
+      price: 49.99,
+      status: "Top Seller",
+    },
+    {
+      id: 4,
+      category: "Web Development",
+      image: image4,
+      title: "Web Development Masterclass 4",
+      updatedDate: "Updated 21/12/19",
+      stars: 5,
+      reviews: 0,
+      users: 6,
+      message: 10,
+      price: 49.99,
+      status: "Top Seller",
+    },
+    {
+      id: 5,
+      category: "Web Development",
+      image: image5,
+      title: "Web Development Masterclass 5",
+      updatedDate: "Updated 21/12/19",
+      stars: 5,
+      reviews: 0,
+      users: 6,
+      message: 10,
+      price: 49.99,
+      status: "Top Seller",
+    },
+    {
       id: 8,
       category: "Web Design",
-      image: image1,
+      image: image8,
       title: "Responsive Web Design Fundamentals 3",
       updatedDate: "Updated 21/12/19",
       stars: 4.5,
@@ -122,7 +192,7 @@ const TopCourses = () => {
     {
       id: 9,
       category: "Web Design",
-      image: image1,
+      image: image9,
       title: "Responsive Web Design Fundamentals 4",
       updatedDate: "Updated 21/12/19",
       stars: 4.5,
@@ -132,23 +202,11 @@ const TopCourses = () => {
       price: 39.99,
       status: "Top Seller",
     },
-    {
-      id: 10,
-      category: "Graphics Design",
-      image: image1,
-      title: "Adobe Illustrator Essentials 1",
-      updatedDate: "Updated 21/12/19",
-      stars: 4.7,
-      reviews: 5,
-      users: 12,
-      message: 20,
-      price: 59.99,
-      status: "Top Seller",
-    },
+
     {
       id: 11,
       category: "Graphics Design",
-      image: image1,
+      image: image11,
       title: "Adobe Illustrator Essentials 2",
       updatedDate: "Updated 21/12/19",
       stars: 4.7,
@@ -161,7 +219,7 @@ const TopCourses = () => {
     {
       id: 12,
       category: "Graphics Design",
-      image: image1,
+      image: image12,
       title: "Adobe Illustrator Essentials 3",
       updatedDate: "Updated 21/12/19",
       stars: 4.7,
@@ -174,7 +232,7 @@ const TopCourses = () => {
     {
       id: 13,
       category: "Graphics Design",
-      image: image1,
+      image: image13,
       title: "Adobe Illustrator Essentials 4",
       updatedDate: "Updated 21/12/19",
       stars: 4.7,
@@ -187,7 +245,7 @@ const TopCourses = () => {
     {
       id: 14,
       category: "Graphics Design",
-      image: image1,
+      image: image14,
       title: "Adobe Illustrator Essentials 5",
       updatedDate: "Updated 21/12/19",
       stars: 4.7,
@@ -197,36 +255,11 @@ const TopCourses = () => {
       price: 59.99,
       status: "Top Seller",
     },
-    {
-      id: 15,
-      category: "Software Development",
-      image: image1,
-      title: "Software Development Masterclass 1",
-      updatedDate: "Updated 21/12/19",
-      stars: 5,
-      reviews: 0,
-      users: 6,
-      message: 10,
-      price: 49.99,
-      status: "Top Seller",
-    },
-    {
-      id: 16,
-      category: "Software Development",
-      image: image1,
-      title: "Software Development Masterclass 2",
-      updatedDate: "Updated 21/12/19",
-      stars: 5,
-      reviews: 0,
-      users: 6,
-      message: 10,
-      price: 49.99,
-      status: "Top Seller",
-    },
+
     {
       id: 17,
       category: "Software Development",
-      image: image1,
+      image: image17,
       title: "Software Development Masterclass 3",
       updatedDate: "Updated 21/12/19",
       stars: 5,
@@ -236,23 +269,11 @@ const TopCourses = () => {
       price: 49.99,
       status: "Top Seller",
     },
-    {
-      id: 18,
-      category: "3D Animation",
-      image: image1,
-      title: "3D Animation Masterclass 1",
-      updatedDate: "Updated 21/12/19",
-      stars: 5,
-      reviews: 0,
-      users: 6,
-      message: 10,
-      price: 49.99,
-      status: "Top Seller",
-    },
+
     {
       id: 19,
       category: "3D Animation",
-      image: image1,
+      image: image19,
       title: "3D Animation Masterclass 2",
       updatedDate: "Updated 21/12/19",
       stars: 5,
@@ -265,7 +286,7 @@ const TopCourses = () => {
     {
       id: 20,
       category: "3D Animation",
-      image: image1,
+      image: image20,
       title: "3D Animation Masterclass 3",
       updatedDate: "Updated 21/12/19",
       stars: 5,
