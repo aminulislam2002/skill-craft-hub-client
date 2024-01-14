@@ -1,5 +1,9 @@
 import { MdOutlineArrowRightAlt } from "react-icons/md";
 import { SiSemanticweb } from "react-icons/si";
+import { GiVibratingSmartphone } from "react-icons/gi";
+import { PiHeadphonesBold } from "react-icons/pi";
+import { MdOutlineCameraAlt } from "react-icons/md";
+import { RiComputerLine } from "react-icons/ri";
 import { Link } from "react-router-dom";
 
 import web_design from "../../../../assets/categories/web-design.jpg";
@@ -32,12 +36,12 @@ const CoursesCategories = () => {
         <Link>
           <div className="relative group overflow-hidden rounded-md">
             <img src={web_design} className="w-full rounded-md h-[245px] object-cover" alt="" />
-            <div className="absolute inset-0 bg-black opacity-50 group-hover:bg-blue-700 group-hover:opacity-50 transition-opacity"></div>
+            <div className="absolute inset-0 bg-black opacity-50 group-hover:bg-blue-800 group-hover:opacity-80 transition-opacity"></div>
 
             <div className="absolute inset-0 flex justify-center items-center">
               <div className="text-center text-white">
                 <div className="flex justify-center items-center">
-                  <SiSemanticweb className="w-20 h-20" />
+                  <PiHeadphonesBold className="w-20 h-20" />
                 </div>
                 <div className="text-center py-5 px-3">
                   <h1 className="text-lg font-bold">Web Development</h1>
@@ -50,12 +54,12 @@ const CoursesCategories = () => {
         <Link>
           <div className="relative group overflow-hidden rounded-md">
             <img src={web_development} className="w-full rounded-md h-[245px] object-cover" alt="" />
-            <div className="absolute inset-0 bg-black opacity-50 group-hover:bg-blue-700 group-hover:opacity-50 transition-opacity"></div>
+            <div className="absolute inset-0 bg-black opacity-50 group-hover:bg-blue-800 group-hover:opacity-80 transition-opacity"></div>
 
             <div className="absolute inset-0 flex justify-center items-center">
               <div className="text-center text-white">
                 <div className="flex justify-center items-center">
-                  <SiSemanticweb className="w-20 h-20" />
+                  <RiComputerLine className="w-20 h-20" />
                 </div>
                 <div className="text-center py-5 px-3">
                   <h1 className="text-lg font-bold">Web Design</h1>
@@ -68,7 +72,7 @@ const CoursesCategories = () => {
         <Link>
           <div className="relative group overflow-hidden rounded-md">
             <img src={graphic_design} className="w-full rounded-md h-[245px] object-cover" alt="" />
-            <div className="absolute inset-0 bg-black opacity-50 group-hover:bg-blue-700 group-hover:opacity-50 transition-opacity"></div>
+            <div className="absolute inset-0 bg-black opacity-50 group-hover:bg-blue-800 group-hover:opacity-80 transition-opacity"></div>
 
             <div className="absolute inset-0 flex justify-center items-center">
               <div className="text-center text-white">
@@ -86,12 +90,12 @@ const CoursesCategories = () => {
         <Link>
           <div className="relative group overflow-hidden rounded-md">
             <img src={software_development} className="w-full rounded-md h-[245px] object-cover" alt="" />
-            <div className="absolute inset-0 bg-black opacity-50 group-hover:bg-blue-700 group-hover:opacity-50 transition-opacity"></div>
+            <div className="absolute inset-0 bg-black opacity-50 group-hover:bg-blue-800 group-hover:opacity-80 transition-opacity"></div>
 
             <div className="absolute inset-0 flex justify-center items-center">
               <div className="text-center text-white">
                 <div className="flex justify-center items-center">
-                  <SiSemanticweb className="w-20 h-20" />
+                  <GiVibratingSmartphone className="w-20 h-20" />
                 </div>
                 <div className="text-center py-5 px-3">
                   <h1 className="text-lg font-bold">Software Development</h1>
@@ -104,12 +108,12 @@ const CoursesCategories = () => {
         <Link>
           <div className="relative group overflow-hidden rounded-md">
             <img src={animation} className="w-full rounded-md h-[245px] object-cover" alt="" />
-            <div className="absolute inset-0 bg-black opacity-50 group-hover:bg-blue-700 group-hover:opacity-50 transition-opacity"></div>
+            <div className="absolute inset-0 bg-black opacity-50 group-hover:bg-blue-800 group-hover:opacity-80 transition-opacity"></div>
 
             <div className="absolute inset-0 flex justify-center items-center">
               <div className="text-center text-white">
                 <div className="flex justify-center items-center">
-                  <SiSemanticweb className="w-20 h-20" />
+                  <MdOutlineCameraAlt className="w-20 h-20" />
                 </div>
                 <div className="text-center py-5 px-3">
                   <h1 className="text-lg font-bold">3D Animation</h1>
